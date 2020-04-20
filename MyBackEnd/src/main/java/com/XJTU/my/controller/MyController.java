@@ -43,5 +43,12 @@ public class MyController {
        return ResponseEntity.of(updatedMyTask);
    }
 
-
+   @DeleteMapping(path = "/{id}")
+   public ResponseEntity delete(@PathVariable Long id) {
+       Optional<MyTask> deletedMyTask = MyService.delete(id);
+       if (deletedMyTask.isPresent()) {
+           return ResponseEntity.noContent().build();
+       }
+       return ResponseEntity.notFound().build();
+      }
 }

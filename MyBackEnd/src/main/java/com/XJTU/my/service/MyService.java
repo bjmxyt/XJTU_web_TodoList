@@ -43,5 +43,13 @@ public class MyService {
        return any;
    }
 
-
+   public Optional<MyTask> delete(Long id) {
+       List<MyTask> MyTasks = store.readMyTasks();
+       Optional<MyTask> any = MyTasks.stream().filter(MyTask1 -> MyTask1.getId() == id).findAny();
+       if (any.isPresent()) {
+           store.writeMyTasks(MyTasks.stream().filter(MyTask -> MyTask.getId() != id).collect(Collectors.toList()));
+           return any;
+       }
+       return any;
+   }
 }
