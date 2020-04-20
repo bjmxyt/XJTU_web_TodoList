@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dc81bf-7912-425e-a65b-660aa7fab7d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/model/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/model/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/service/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/service/MyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/store/MyStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/XJTU/my/store/MyStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XJTU/my/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XJTU/my/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XJTU/my/model/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XJTU/my/model/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/XJTU/my/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/XJTU/my/service/MyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,38 +113,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="273" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395984543" />
-    <state width="1875" height="281" key="GridCell.Tab.0.bottom" timestamp="1587395880815">
+    <state width="1875" height="281" key="GridCell.Tab.0.bottom" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880815" />
-    <state width="1875" height="281" key="GridCell.Tab.0.center" timestamp="1587395880814">
+    <state width="1875" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
+    <state width="1875" height="281" key="GridCell.Tab.0.center" timestamp="1587396221072">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880814" />
-    <state width="1875" height="281" key="GridCell.Tab.0.left" timestamp="1587395880814">
+    <state width="1875" height="281" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221072" />
+    <state width="1875" height="281" key="GridCell.Tab.0.left" timestamp="1587396221072">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880814" />
-    <state width="1875" height="281" key="GridCell.Tab.0.right" timestamp="1587395880814">
+    <state width="1875" height="281" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221072" />
+    <state width="1875" height="281" key="GridCell.Tab.0.right" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880814" />
-    <state width="1875" height="281" key="GridCell.Tab.1.bottom" timestamp="1587395880816">
+    <state width="1875" height="281" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
+    <state width="1875" height="281" key="GridCell.Tab.1.bottom" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880816" />
-    <state width="1875" height="281" key="GridCell.Tab.1.center" timestamp="1587395880815">
+    <state width="1875" height="281" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
+    <state width="1875" height="281" key="GridCell.Tab.1.center" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880815" />
-    <state width="1875" height="281" key="GridCell.Tab.1.left" timestamp="1587395880815">
+    <state width="1875" height="281" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
+    <state width="1875" height="281" key="GridCell.Tab.1.left" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880815" />
-    <state width="1875" height="281" key="GridCell.Tab.1.right" timestamp="1587395880815">
+    <state width="1875" height="281" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
+    <state width="1875" height="281" key="GridCell.Tab.1.right" timestamp="1587396221073">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="281" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587395880815" />
+    <state width="1875" height="281" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587396221073" />
     <state width="912" height="350" key="GridCell.Tab.2.bottom" timestamp="1587391142788">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

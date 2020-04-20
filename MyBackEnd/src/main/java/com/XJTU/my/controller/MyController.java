@@ -26,4 +26,29 @@ public class MyController {
     public ResponseEntity<MyTask> find(@PathVariable Long id) {
         return ResponseEntity.of(MyService.find(id));
     }
+
+    @PostMapping(consumes = "application/json", produces = "application/json")
+    public ResponseEntity<MyTask> create(@RequestBody MyTask MyTask) {
+        MyService.saveMyTask(MyTask);
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest()
+                .path("/MyTasks/{id}")
+                .buildAndExpand(MyTask.getId())
+                .toUri();
+        return ResponseEntity.created(location).build();
+    }
+//
+//    @PutMapping(path = "/{id}", consumes = "application/json", produces = "application/json")
+//    public ResponseEntity<MyTask> update(@PathVariable Long id, @RequestBody MyTask MyTask) {
+//        Optional<MyTask> updatedMyTask = MyService.update(new MyTask(id, MyTask.getcontent()));
+//        return ResponseEntity.of(updatedMyTask);
+//    }
+//
+//    @DeleteMapping(path = "/{id}")
+//    public ResponseEntity delete(@PathVariable Long id) {
+//        Optional<MyTask> deletedMyTask = MyService.delete(id);
+//        if (deletedMyTask.isPresent()) {
+//            return ResponseEntity.noContent().build();
+//        }
+//        return ResponseEntity.notFound().build();
+//       }
 }

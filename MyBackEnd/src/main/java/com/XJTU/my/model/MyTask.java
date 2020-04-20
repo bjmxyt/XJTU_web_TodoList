@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 public class MyTask {
     private long id;
     private String content;
+    private LocalDateTime Updated_Time;
 
     public MyTask() {
     }
@@ -19,5 +20,21 @@ public class MyTask {
 
     public long getId() {
         return id;
+    }
+
+    public String getcontent() {
+        return content;
+    }
+
+//    public LocalDateTime getUpdated_Time() {
+//        return Updated_Time;
+//    }
+
+    public void setUpdated_Time() {
+        this.Updated_Time = LocalDateTime.now();
+    }
+
+    public void setcontent(String content) {
+        this.content = content;
     }
 }
