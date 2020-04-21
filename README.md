@@ -14,3 +14,4 @@ iv. 删除一个Todo任务
 用e2e测试保证最终可用性  
 小步提交，提交数量不少于15个，提交消息表意且与提交代码一致。  
 ![Image text](https://github.com/bjmxyt/XJTU_web_TodoList/blob/master/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE/%E5%90%8E%E7%AB%AF%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
+![Image text](https://github.com/bjmxyt/XJTU_web_TodoList/blob/master/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE/%E5%89%8D%E7%AB%AF%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
