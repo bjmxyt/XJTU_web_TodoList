@@ -26,9 +26,9 @@ public class MyTask {
         return content;
     }
 
-//    public LocalDateTime getUpdated_Time() {
-//        return Updated_Time;
-//    }
+    public LocalDateTime getUpdated_Time() {
+        return Updated_Time;
+    }
 
     public void setUpdated_Time() {
         this.Updated_Time = LocalDateTime.now();
