@@ -26,16 +26,6 @@ public class MyTask {
         return content;
     }
 
-<<<<<<< HEAD
-    public LocalDateTime getUpdated_Time() {
-        return Updated_Time;
-    }
-=======
-   public LocalDateTime getUpdated_Time() {
-       return Updated_Time;
-   }
->>>>>>> 22076b2bdfbd40753ec784d61f0b4829fefa2a3f
-
     public void setUpdated_Time() {
         this.Updated_Time = LocalDateTime.now();
     }
