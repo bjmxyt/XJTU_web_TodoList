@@ -1,0 +1,48 @@
+.text-button {
+  border: none;
+  background-color: inherit;
+  padding: 14px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+  color: red;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+}
+
+/* On mouse-over */
+.text-button:hover {color: #FFB6C1;}
+
+.submit-button {
+  background-color: #555555;
+  color: white;
+  height: 36px;
+  width: 80px;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+}
+
+.task-input {
+  margin: 0 20px;
+  height: 50px;
+  width: 300px;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  top: 50%;
+}
+
+.task-items{
+  margin: 0 20px;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  list-style: none;
+}
