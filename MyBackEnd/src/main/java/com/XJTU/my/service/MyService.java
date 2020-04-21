@@ -32,6 +32,7 @@ public class MyService {
         store.writeMyTasks(MyTasks);
         return MyTask;
     }
+<<<<<<< HEAD
     public Optional<MyTask> update(MyTask MyTask) {
         List<MyTask> MyTasks = new ArrayList<>(store.readMyTasks());
         Optional<MyTask> any = MyTasks.stream().filter(MyTask1 -> MyTask1.getId() == MyTask.getId()).findAny();
@@ -52,4 +53,26 @@ public class MyService {
         }
         return any;
     }
+=======
+   public Optional<MyTask> update(MyTask MyTask) {
+       List<MyTask> MyTasks = new ArrayList<>(store.readMyTasks());
+       Optional<MyTask> any = MyTasks.stream().filter(MyTask1 -> MyTask1.getId() == MyTask.getId()).findAny();
+       if (any.isPresent()) {
+           any.get().setcontent(MyTask.getcontent());
+           any.get().setUpdated_Time();
+           store.writeMyTasks(MyTasks);
+       }
+       return any;
+   }
+
+   public Optional<MyTask> delete(Long id) {
+       List<MyTask> MyTasks = store.readMyTasks();
+       Optional<MyTask> any = MyTasks.stream().filter(MyTask1 -> MyTask1.getId() == id).findAny();
+       if (any.isPresent()) {
+           store.writeMyTasks(MyTasks.stream().filter(MyTask -> MyTask.getId() != id).collect(Collectors.toList()));
+           return any;
+       }
+       return any;
+   }
+>>>>>>> 22076b2bdfbd40753ec784d61f0b4829fefa2a3f
 }

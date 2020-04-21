@@ -37,6 +37,7 @@ public class MyController {
         return ResponseEntity.created(location).build();
     }
 
+<<<<<<< HEAD
     @PutMapping(path = "/{id}", consumes = "application/json", produces = "application/json")
     public ResponseEntity<MyTask> update(@PathVariable Long id, @RequestBody MyTask MyTask) {
         Optional<MyTask> updatedMyTask = MyService.update(new MyTask(id, MyTask.getcontent()));
@@ -51,4 +52,20 @@ public class MyController {
         }
         return ResponseEntity.notFound().build();
        }
+=======
+   @PutMapping(path = "/{id}", consumes = "application/json", produces = "application/json")
+   public ResponseEntity<MyTask> update(@PathVariable Long id, @RequestBody MyTask MyTask) {
+       Optional<MyTask> updatedMyTask = MyService.update(new MyTask(id, MyTask.getcontent()));
+       return ResponseEntity.of(updatedMyTask);
+   }
+
+   @DeleteMapping(path = "/{id}")
+   public ResponseEntity delete(@PathVariable Long id) {
+       Optional<MyTask> deletedMyTask = MyService.delete(id);
+       if (deletedMyTask.isPresent()) {
+           return ResponseEntity.noContent().build();
+       }
+       return ResponseEntity.notFound().build();
+      }
+>>>>>>> 22076b2bdfbd40753ec784d61f0b4829fefa2a3f
 }
